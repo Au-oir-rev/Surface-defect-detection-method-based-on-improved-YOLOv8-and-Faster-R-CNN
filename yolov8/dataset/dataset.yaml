@@ -1,0 +1,6 @@
+path: C:\Users\88983\Desktop\NEU\dataset  # 数据集路径
+train: images/train     # 训练集图片路径
+val: images/val         # 验证集图片路径
+
+nc: 6                   # 类别总数
+names: ['Cr', 'In', 'Pa', 'PS', 'RS','Sc']        # 类别名称

@@ -1,0 +1,97 @@
+2 base+pre
+
+Validating runs\detect\train\custom_yolov82\weights\best.pt...
+Ultralytics YOLOv8.2.103 🚀 Python-3.8.20 torch-2.4.1 CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)
+YOLOv8n summary (fused): 168 layers, 3,006,818 parameters, 0 gradients, 8.1 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 23/23 [00:05<00:00,  4.02it/s]
+                   all        360        858      0.447      0.357      0.358      0.149
+                    Cr         60        163      0.275      0.528      0.288     0.0851
+                    In         82        154      0.307      0.156      0.171     0.0554
+                    Pa         70        202      0.814      0.456      0.687      0.377
+                    PS         61         86      0.462      0.558      0.478      0.183
+                    RS         60        120      0.498        0.1      0.263     0.0947
+                    Sc         60        133      0.324      0.346      0.263      0.099
+Speed: 0.2ms preprocess, 1.3ms inference, 0.0ms loss, 3.9ms postprocess per image
+
+1 base
+
+Validating runs\detect\train\custom_yolov8\weights\best.pt...
+Ultralytics YOLOv8.2.103 🚀 Python-3.8.20 torch-2.4.1 CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)
+YOLOv8n summary (fused): 168 layers, 3,006,818 parameters, 0 gradients, 8.1 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 23/23 [00:05<00:00,  4.17it/s]
+                   all        360        858      0.476      0.296      0.339      0.145
+                    Cr         60        163      0.319       0.27      0.236     0.0818
+                    In         82        154      0.284       0.37      0.265      0.091
+                    Pa         70        202      0.663      0.644        0.7      0.386
+                    PS         61         86      0.653      0.174      0.282       0.12
+                    RS         60        120      0.154     0.0417     0.0676     0.0192
+                    Sc         60        133      0.785      0.274      0.482      0.171
+Speed: 0.2ms preprocess, 1.3ms inference, 0.0ms loss, 4.0ms postprocess per image
+Results saved to runs\detect\train\custom_yolov8
+
+5 yolov8s+pre
+
+Ultralytics YOLOv8.2.103 🚀 Python-3.8.20 torch-2.4.1 CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)
+YOLOv8s summary (fused): 168 layers, 11,127,906 parameters, 0 gradients, 28.4 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 23/23 [00:06<00:00,  3.72it/s]
+                   all        360        858      0.435      0.425      0.406      0.183
+                    Cr         60        163      0.261     0.0613      0.117     0.0315
+                    In         82        154       0.32       0.63       0.45      0.193
+                    Pa         70        202      0.559      0.752      0.748      0.432
+                    PS         61         86      0.835      0.105      0.336      0.141
+                    RS         60        120       0.27      0.508      0.338      0.121
+                    Sc         60        133      0.366      0.496      0.449      0.177
+Speed: 0.2ms preprocess, 2.2ms inference, 0.0ms loss, 4.0ms postprocess per image
+Results saved to runs\detect\train\custom_yolov85
+
+6 afpn_s+pre
+
+Validating runs\detect\train\custom_yolov86\weights\best.pt...
+Ultralytics YOLOv8.2.103 🚀 Python-3.8.20 torch-2.4.1 CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)
+afpn_s summary: 707 layers, 6,709,629 parameters, 0 gradients, 30.8 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 23/23 [00:02<00:00,  9.50it/s]
+                   all        360        858      0.544      0.239      0.316      0.141
+                    Cr         60        163          1          0      0.218     0.0585
+                    In         82        154      0.506       0.16      0.279      0.125
+                    Pa         70        202      0.765      0.356      0.575      0.323
+                    PS         61         86      0.256      0.663      0.481      0.211
+                    RS         60        120      0.096     0.0912     0.0467     0.0154
+                    Sc         60        133      0.644      0.165      0.297      0.113
+Speed: 0.1ms preprocess, 3.4ms inference, 0.0ms loss, 0.8ms postprocess per image
+
+4 afpn+pre
+
+Validating runs\detect\train\custom_yolov84\weights\best.pt...
+Ultralytics YOLOv8.2.103 🚀 Python-3.8.20 torch-2.4.1 CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)
+afpn summary: 707 layers, 2,106,421 parameters, 0 gradients, 15.0 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 23/23 [00:03<00:00,  6.42it/s]
+                   all        360        858      0.369      0.239      0.298      0.135
+                    Cr         60        163          0          0     0.0419     0.0132
+                    In         82        154      0.441      0.234      0.292      0.144
+                    Pa         70        202      0.784       0.27      0.538      0.298
+                    PS         61         86      0.275      0.547      0.428      0.174
+                    RS         60        120      0.142     0.0667      0.104     0.0338
+                    Sc         60        133      0.571       0.32      0.383      0.145
+Speed: 0.1ms preprocess, 4.1ms inference, 0.0ms loss, 1.5ms postprocess per image
+
+3 afpn
+
+Validating runs\detect\train\custom_yolov83\weights\best.pt...
+Ultralytics YOLOv8.2.103 🚀 Python-3.8.20 torch-2.4.1 CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)
+afpn summary: 707 layers, 2,106,421 parameters, 0 gradients, 15.0 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 23/23 [00:05<00:00,  4.49it/s]
+                   all        360        858      0.546       0.21      0.288      0.126
+                    Cr         60        163          1          0      0.115     0.0367
+                    In         82        154      0.633      0.273      0.354      0.159
+                    Pa         70        202      0.657      0.445      0.558      0.305
+                    PS         61         86      0.609       0.43      0.466       0.17
+                    RS         60        120     0.0604    0.00833     0.0795     0.0303
+                    Sc         60        133       0.32      0.103      0.154     0.0511
+Speed: 0.1ms preprocess, 5.7ms inference, 0.0ms loss, 2.4ms postprocess per image
+Results saved to runs\detect\train\custom_yolov83
+
+7 afpn_3
+
+8 afpn_3+pre
+
+9 afpn_s_3+pre
